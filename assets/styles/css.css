@@ -1,7 +1,49 @@
-.list{
-    display: flex;
-    list-style-type: none;
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.maincontainer{
+    margin-top: 50px;
+    margin-left: 50px;
+    display: grid;
+    gap: 1.5em;
+    background-color: gray;
+    width: 30%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    color: aliceblue;
+    text-align: center;
+}
+h1{
+    margin: 0;
+    padding: 0;
+}
+.line{
+    margin: 0;
+    padding: 0;
+    height: 2px;
+    background-color: black;
+}
+
+.item{
+    margin: 0;
+    padding: 10px;
+}
+.item:hover, item:active{
+    transition: 2ms ease-in-out;
+    background-color: black;
+    color: white;
 }
 a{
+    margin: 0;
+    padding: 0;
     text-decoration: none;
+    color: black;
 }
+a:hover,a:focus{
+    transition: 2ms ease-in-out;
+    text-decoration: dashed;
+    color: white;
+}
+
